@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+#root {
+  @apply w-full h-full overflow-x-hidden text-white;
+}
+
+input {
+  @apply outline-none;
+}
